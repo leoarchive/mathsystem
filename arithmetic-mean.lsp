@@ -9,4 +9,4 @@
 
 (setq numbers (list 1 2 3))
 
-(/ (sum numbers) (length li))
+(/ (sum numbers) (length numbers))
