@@ -1,4 +1,4 @@
-(defun occurrences(list)
+(defun mode(list)
 	(let ((table (make-hash-table)))
 		(loop
 			for i in list do
@@ -12,6 +12,3 @@
 	)
 )  
 
-(setq numbers(list 1 2 3 4 5))
-
-(occurrences numbers)
