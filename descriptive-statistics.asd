@@ -22,7 +22,9 @@
                 	(:file "relative-variance")
 			(:file "standard-deviation")
 			(:file "variance")
-			(:file "weighted-arithmetic-mean")))))
+			(:file "weighted-arithmetic-mean")
+			(:file "cumulative-frequency")
+			(:file "relative-frequency")))))
   	:long-description
   	#.(uiop:read-file-string
      	(uiop:subpathname *load-pathname* "README"))

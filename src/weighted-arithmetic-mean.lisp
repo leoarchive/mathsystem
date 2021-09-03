@@ -14,7 +14,6 @@
 		)
 	)
 )
- 
 
 (defun weighted_arithmetic_mean (list list2)
 	(/ (weighted_arithmetic_mean_mult list list2)(weighted_arithmetic_mean_sum list2))
