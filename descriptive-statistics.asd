@@ -1,7 +1,7 @@
 (defsystem "descriptive-statistics"
 	:author "Leonardo Zamboni <leonardonunes169@gmail.com>"
   	:maintainer "Leonardo Zamboni <leonardonunes169@gmail.com>"  
-	:license "MIT"
+	:license "LLGPL"
   	:version "0.1"
   	:homepage "https://github.com/leozamboni/descriptive-statistics"
   	:bug-tracker "https://github.com/leozamboni/descriptive-statistics/issues"
