@@ -10,5 +10,4 @@
 				collect (cons j v)
 		) #'>= :key #'cdr)
 	)
-)  
-
+) 
