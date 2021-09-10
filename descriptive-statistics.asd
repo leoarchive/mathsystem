@@ -11,20 +11,20 @@
   		:components ((:module "src"
                 	:serial t
 	                :components
-        	        ((:file "amplitude")
-               		(:file "arithmetic-mean")
-                	(:file "coefficient-of-variation")
-               		(:file "geometric-mean")
-                	(:file "harmonic-mean")
-                	(:file "absolute-deviation-mean")
+        	        ((:file "maximum")
+               		(:file "minimum")
+                	(:file "mean")
+               		(:file "size")
+                	(:file "mean_absolute_deviation")
                 	(:file "median")
+                	(:file "midrange")
                 	(:file "mode")
-                	(:file "relative-variance")
-			(:file "standard-deviation")
-			(:file "variance")
-			(:file "weighted-arithmetic-mean")
-			(:file "cumulative-frequency")
-			(:file "relative-frequency")))))
+                	(:file "range")
+			(:file "standard_deviation")
+			(:file "root_mean_square")
+			(:file "standard_error_mean")
+			(:file "sum")
+			(:file "variance")))))
   	:long-description
   	#.(uiop:read-file-string
      	(uiop:subpathname *load-pathname* "README"))
