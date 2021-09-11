@@ -1,7 +1,7 @@
 (defun average (list)
 	(loop 
 		for i in list
-		sum (- i  (mean list))
+		sum (+ (- i  (mean list)))
 	)
 )
 

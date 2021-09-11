@@ -1,7 +1,7 @@
 (defun kurtosis_average (list)
 	(loop 
 		for i in list
-		sum (expt (/ (- i (mean list)) (standard_deviation list)) 4)
+		sum (+ (expt (/ (- i (mean list)) (standard_deviation list)) 4))
 	)
 )
 

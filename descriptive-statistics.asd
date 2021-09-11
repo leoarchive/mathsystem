@@ -11,7 +11,8 @@
   		:components ((:module "src"
                 	:serial t
 	                :components
-        	        ((:file "maximum")
+        	        ((:file "frequency")
+			(:file "maximum")
                		(:file "minimum")
                 	(:file "mean")
                		(:file "size")
@@ -28,7 +29,8 @@
 			(:file "skewness")
 			(:file "kurtosis")
 			(:file "kurtosis_excess")
-			(:file "coefficient_of_variation")))))
+			(:file "coefficient_of_variation")
+			(:file "relative_standard_deviation")))))
   	:long-description
   	#.(uiop:read-file-string
      	(uiop:subpathname *load-pathname* "README"))

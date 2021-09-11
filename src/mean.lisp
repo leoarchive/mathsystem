@@ -1,3 +1,3 @@
 (defun mean (list)
-	(/ (sum list) (length list))
+	(/ (apply '+ list) (length list))
 )
