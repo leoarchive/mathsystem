@@ -23,8 +23,12 @@
 			(:file "standard_deviation")
 			(:file "root_mean_square")
 			(:file "standard_error_mean")
-			(:file "sum")
-			(:file "variance")))))
+			(:file "sum_list")
+			(:file "variance")
+			(:file "skewness")
+			(:file "kurtosis")
+			(:file "kurtosis_excess")
+			(:file "coefficient_of_variation")))))
   	:long-description
   	#.(uiop:read-file-string
      	(uiop:subpathname *load-pathname* "README"))
