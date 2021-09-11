@@ -1,9 +1,11 @@
 (defun kurtosis_excess (list)
-	(- (* (/ 
-		(* (size list) (+ (size list) 1))
-		(* (- (size list) 1) (- (size list) 2) (- (size list) 3)))
-	(kurtosis_average list))
-	(/ 
-		(* 3 (sqrt (- (size list))))
-		(* (- (size list) 2) (- (size list) 3))))
+	(- 
+		(kurtiosis list)
+		(/ 
+			(* 3 (sqrt (- (size list))))
+			(* (- (size list) 2) (- (size list) 3))))
+)
+
+(defun kurtosis_excess_population (list)
+	(- (kurtosis_population list) 3)
 )

@@ -8,3 +8,7 @@
 (defun standard_deviation (list)
 	(sqrt (/ (average list) (- (length list) 1)))
 )
+
+(defun standard_deviation_population (list)
+	(sqrt (/ (average list) (length list)))
+)
