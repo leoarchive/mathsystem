@@ -9,7 +9,7 @@
 	:author "Leonardo Zamboni <leonardonunes169@gmail.com>"
 	:license "LLGPL"
   	:version "0.1"
-  	:homepage "https://github.com/leozamboni/descriptive-statistics"
+  	:homepage "https://github.com/leozamboni/math-system"
   	:description "simple descriptive statistic algorithms"
   	:depends-on ()
   		:components ((:module "src"

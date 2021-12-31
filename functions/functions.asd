@@ -9,7 +9,7 @@
 	:author "Leonardo Zamboni <leonardonunes169@gmail.com>"
 	:license "LLGPL"
   	:version "0.1"
-  	:homepage "https://github.com/leozamboni/math-system/functions"
+  	:homepage "https://github.com/leozamboni/math-system"
   	:description "math functions"
   	:depends-on ()
   		:components ((:module "src"
